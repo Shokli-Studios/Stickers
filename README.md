@@ -1,1 +1,1 @@
-# Stickers
+This Stickers is the more recent version of StickIt! I made several db mistakes and layout mistakes with the previous version. I didn't want to go back to fix all the scramble so I'm setting up the project here. 

@@ -1,0 +1,9 @@
+<% @sticker.each do |s| %>
+<div class="sticker"%>
+<div class="title"><%= s.name %></div>
+<div class="date"><%= s.date %></div>
+<div class="content"><%= s.content%></div>
+</div>
+<% end %>
+
+<%= link_to 'New Sticker', "new" %>

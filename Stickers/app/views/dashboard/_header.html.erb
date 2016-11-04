@@ -1,0 +1,54 @@
+<div id="verticalContainer">
+	<div class="logo">
+	<%= image_tag("gallery/Drawings/stickerslogo.png")%>
+	</div>
+	<div class="userInfo">
+	Tim Chinenov
+	</div>
+	<div class="dropItem" onClick="">
+	<div id="boards">Boards<span class="caret"></span></div>
+		<div class="options">
+			<%if false%>
+			<%Boards.each do |b|%>
+			<div class="boardName" onClick="">
+				<%= b.name%>
+				<!--Let's see if we can also output how many stickers have been used up-->
+			</div>
+			<% end %>
+			<% end %>
+		</div>
+	</div>
+
+	<div class="dropItem" onclick="openSort()">
+		<div id="sort">Sort<span class="caret"></span></div>	
+
+		<div class="item" onClick="">
+			<!--Color-->
+		</div>
+		<div class="item" onClick="">
+			<!--Due Date-->
+		</div>
+		<div class="item" onClick="">
+			<!--Importance-->
+		</div>
+		<div class="item" onClick="">
+			<!--Name-->
+		</div>
+
+	</div>
+
+	<div class="dropItem" onClick="">
+	<div id="set">Settings<span class="caret"></span></div>
+		<div class="options">
+		</div>
+	</div>
+
+	<!--
+	<div id="footer">
+	A <a href="www.shoklistudios.tech">Shokli Studio</a> Application
+	</div>
+	-->
+
+</div>
+
+

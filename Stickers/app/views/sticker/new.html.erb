@@ -1,0 +1,9 @@
+<%= form_for(sticker_new_path) do |f| %>
+<div class="field">
+	<%= f.label :New%><br>
+	<%= f.text_area :content %>
+</div>
+<div class="action">
+	<%= f.submit "Create" %>
+</div>
+<% end %>
